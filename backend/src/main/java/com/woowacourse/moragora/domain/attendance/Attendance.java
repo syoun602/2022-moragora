@@ -71,6 +71,10 @@ public class Attendance {
         return this.status == Status.NONE;
     }
 
+    /**
+     * 우디
+     * @return
+     */
     public boolean isEnabled() {
         return !disabled;
     }
